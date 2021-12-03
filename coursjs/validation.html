@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>V&eacute;rification de formulaire</title>
+
+<script language="javascript" >
+function verification()
+{
+ if ((document.frm.text1.value == "") || (document.frm.text2.value == ""))
+  {
+    alert('au moins un champ vide ...!');
+    return false;
+  }
+ else
+   return true; 
+}
+</script>
+</head>
+<body>
+
+<h2>V&eacute;rification de formulaire</h2>
+
+<form name="frm" method="post" onsubmit="return verification();" action="#">
+<input type="text" name="text1" ><br>
+<input type="text" name="text2" ><br>
+<input type="submit" value="Ok" >
+</form>
+</body>
+</html>

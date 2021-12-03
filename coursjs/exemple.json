@@ -1,0 +1,13 @@
+
+{
+    "nom": "dupond" , "prenom": "jean" 
+}
+
+[ 
+    {
+        "nom": "dupond" , "prenom": "jean" 
+    },
+    {
+        "nom": "durand" , "prenom": "emile" 
+    }
+]

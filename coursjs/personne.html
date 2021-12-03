@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Personne</title>
+
+</head>
+<body onload="Personne.load();">
+<h3>Personne</h3>
+
+pseudo : <input type="text" id="pseudo" /><br/>
+email : <input type="text" id="email" /><br/>
+<input type="button"  value="ajoute" onclick="Personne.enregistre();"/>
+<input type="button"  value="affiche" onclick="Personne.affiche('view');"/>
+
+<div id="view">...</div>
+
+<script type="text/javascript" src="personne.js"></script>
+</body>
+</html>

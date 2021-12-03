@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+	background: #C4C4C4;
+}
+
+.table-container {
+	max-width: 500px;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 30px;
+}
+
+.calendrier {
+	margin: auto;
+	border: none;
+	background: #F6F6F6;
+	font-family: 'Montserrat', sans-serif;
+	padding: 1.2em;
+	width: 100%;
+}
+
+.calendrier caption {
+	height: 20%;
+	background: #d35b33;
+	color: #F6F6F6;
+	text-align: left;
+	padding: 5% 5% 5% 5%;
+	font-size: 2em;
+    text-transform: uppercase;
+    caption-side: top;
+}
+
+.calendrier th {
+	text-transform: uppercase;
+	color: #F5A523;
+	font-weight: 500;
+}
+
+.calendrier td {
+	padding: 3%;
+}
+
+.calendrier td, .calendrier th {
+	text-align: center;
+	padding: 0.3em;
+}
+
+.current-header {
+	font-size: 1.2em;
+	display: block;
+	padding: 0;
+	line-height: 0.7;
+}
+
+.dimanche {
+	color: #a4a4a4;
+}
+
+.day {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+	/* padding: .5em; */
+	border-radius: 100%;
+	transition: all .4s;
+}
+
+.selected {
+    background:  #abf009;
+	color: #2b21c2;
+}
+
+.day:hover {
+	background: #000;
+	cursor: pointer;
+	color: #F6F6F6;
+}
+
+.current {
+	background: #d35b33;
+	color: #F6F6F6;	
+}
+
+.bouton {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    /* background: #abf009; */
+    font-size: 1.0em;
+    font-weight: bolder;
+    color: #F6F6F6;
+    float: none;
+    margin: 0px;
+}
+
+#previousMonth{
+    text-align: left;
+}
+#currentMonth{
+    text-align: center;
+    width: 100%;
+}
+#nextMonth{
+    text-align: right;
+}
+h3{
+	text-align: center;
+}
+#libelle {
+    /* background: #abf009; */
+	font-size: 2.0em;
+	width: 100%;
+    font-weight: bolder;
+    color: #F6F6F6;
+    float: none;
+	margin: 0px;
+	text-align: center;
+}
+
+.eventcaption{
+	font-size: 0.4em;
+}
+
+.calendrier input[type=checkbox] {
+  border-radius: 8px;
+  min-width: 32px;
+  min-height: 32px; 
+  padding: 16px;
+}
+.calendrier button {
+	border: none;
+  }

@@ -1,0 +1,55 @@
+<div class="table-container">
+<div class="row">
+    <div class="col">
+        <h3>Indiquez les dates</h3>
+    </div>
+</div>
+
+<div class="row"><div class="col"><select id="selectedDates"></select></div></div>
+
+<div class="row">
+    <div class="col">
+        <div id="libelle"></div>
+    </div>
+</div>
+</div>
+
+<!-- Calendrier -->
+
+<div class="table-container">
+    <table class="calendrier">
+        <caption>
+            <div class="row bouton">
+                <span class="btn-group">
+    
+                    <div class="col-1"><a class="btn" id="previousMonth"><i class="bi-chevron-left"></i></a></div>
+                    <div class="col-10"><a class="btn active" id="currentMonth"></a></div>
+                    <div class="col-1"><a class="btn"id="nextMonth"><i class="bi-chevron-right"></i></a></div>
+                </span>
+            </div>
+    
+        </caption>
+
+        <thead>
+            <tr>
+                <th scope="col"><abbr title="Lundi">Lun</th>
+                <th scope="col"><abbr title="Mardi">Mar</th>
+                <th scope="col"><abbr title="Mercredi">Mer</th>
+                <th scope="col"><abbr title="Jeudi">Jeu</th>
+                <th scope="col"><abbr title="Vendredi">Ven</th>
+                <th scope="col"><abbr title="Samedi">Sam</th>
+                <th scope="col"><abbr title="Dimanche">Dim</th>
+            </tr>
+
+        </thead>
+
+        <tbody id="bodyCalendrier">
+        </tbody>
+    </table>
+    
+    <!-- <div class="row">
+        <div class="col"></div>
+        <div class="col-10"><button id="enregistre">Enregistre</button></div>
+        <div class="col"></div>
+    </div>    -->
+</div>
